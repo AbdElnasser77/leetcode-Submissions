@@ -3,20 +3,23 @@ public class Solution {
   int n = boxes.Length;
 int[] answer = new int[n];
 
-for(int i = 0; i < n; i++)
-{
-    int sum = 0;
-    for(int j = 0; j < n; j++)
-    {
-            if(boxes[j] == '1')
-            {
-                sum += Math.Abs(j-i);
-            }
-    }
-    answer[i] = sum;
+ int steps = 0,count = 0;
+ for(int i = 0; i < n; i++)
+ {
+     answer[i] += steps;
+     if (boxes[i] == '1') count++;
+     steps += count;
+ }
+
+ steps = 0;
+ count = 0;
+ for(int i = n-1;i >= 0; i--)
+ {
+     answer[i] += steps;
+     if(boxes[i] == '1') count++; 
+     steps += count;
+ }
+
+ return answer;
 }
-
-
-return answer;
-    }
 }
