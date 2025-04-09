@@ -5,18 +5,19 @@ public class Solution {
         prefix = gain;
         int max = 0;
 
-        for (int i = 0; i < n; i++)
+          
+    for (int i = 0; i < n; i++)
+    {
+        if (i == 0)
+            max = int.Max(prefix[i],max);
+        else
         {
-            if (i == 0)
-            {
-                if (prefix[i] > max) max = prefix[i];
-            }
-            else
-            {
-                prefix[i] += prefix[i-1];
-                if (prefix[i] > max) max = prefix[i];
-            }
+            prefix[i] += prefix[i-1];
+            max = int.Max(prefix[i], max);
         }
+    }
+
+    return max;
 
         return max;
     
