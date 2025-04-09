@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [1833-find-the-highest-altitude](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1833-find-the-highest-altitude) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2714-left-and-right-sum-differences](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/2714-left-and-right-sum-differences) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -11,6 +12,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [1833-find-the-highest-altitude](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1833-find-the-highest-altitude) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2714-left-and-right-sum-differences](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/2714-left-and-right-sum-differences) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/3704-count-partitions-with-even-sum-difference) |
