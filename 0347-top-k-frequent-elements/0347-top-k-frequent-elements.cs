@@ -1,17 +1,32 @@
 public class Solution {
     public int[] TopKFrequent(int[] nums, int k) {
-        var freq = new Dictionary<int,int>();
+       
+var freqMap = new Dictionary<int, int>();
+foreach(int num in nums)
+{
+    if(freqMap.ContainsKey(num)) freqMap[num]++;
+    else freqMap[num] = 1;
+}
 
-        foreach(int n in nums){
-            if(freq.ContainsKey(n)){
-                freq[n]++;
-            }else{
-                freq[n]=1;
-            }
-        }
+List<int>[] buckets = new List<int>[nums.Length + 1];
+foreach(var pair in freqMap)
+{
+    int freq = pair.Value;
+    if (buckets[freq] == null) buckets[freq] = new List<int>();
 
-        var res = freq.OrderByDescending(x => x.Value).Select(x => x.Key).Take(k).ToArray();
+    buckets[freq].Add(pair.Key);
+}
 
-        return res;
+List<int> result = new List<int>(k);
+for(int i = buckets.Length - 1; i > 0 && result.Count < k; i--)
+{
+    if(buckets[i] != null)
+    {
+        result.AddRange(buckets[i]);
+    }
+    
+}
+
+return result.ToArray();
     }
 }
