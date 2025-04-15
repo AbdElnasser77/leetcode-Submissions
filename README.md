@@ -25,10 +25,12 @@
 ## String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0242-valid-anagram) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 ## Hash Table
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 ## Divide and Conquer
 |  |
@@ -37,6 +39,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
