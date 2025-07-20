@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [1833-find-the-highest-altitude](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1833-find-the-highest-altitude) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -30,6 +31,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 ## Divide and Conquer
@@ -57,4 +59,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
