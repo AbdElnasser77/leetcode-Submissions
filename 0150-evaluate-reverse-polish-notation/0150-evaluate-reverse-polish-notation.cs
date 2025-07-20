@@ -1,42 +1,30 @@
 public class Solution {
     public int EvalRPN(string[] tokens) {
             
-            var proccess = new Stack<string>();
-            
-            foreach(var num in tokens)
-            {
-                if (num == "+")
-                {
-                    string current = proccess.Pop();
-                    current = (int.Parse(proccess.Pop()) + int.Parse(current)).ToString();
-                    proccess.Push(current);
-                }
-                else if (num == "-")
-                {
-                    string current = proccess.Pop();
-                    current = (int.Parse(proccess.Pop()) - int.Parse(current)).ToString();
-                    proccess.Push(current);
-                }
-                else if(num == "*")
-                {
-                    string current = proccess.Pop();
-                    current = (int.Parse(proccess.Pop()) * int.Parse(current)).ToString();
-                    proccess.Push(current);
-                }
-                else if(num == "/")
-                {
-                    string current = proccess.Pop();
-                    current = (int.Parse(proccess.Pop()) / int.Parse(current)).ToString();
-                    proccess.Push(current);
-                }
-                else
-                {
-                    proccess.Push(num); 
-                }
+              var proccess = new Stack<int>();
+  
+  foreach(var num in tokens)
+  {
+      if (num == "+" || num == "*" || num == "-" || num == "/")
+      {
+          int num1 = proccess.Pop();
+          int num2 = proccess.Pop();
+          int result = num switch
+          {
+              "+" => num1 + num2,
+              "-" => num2 - num1,
+              "*" => num1 * num2,
+              "/" => num2 / num1,
+              _ => throw new InvalidOperationException("Invalid operator")
+          };
+          proccess.Push(result);
+      }
+      else
+      {
+          proccess.Push(int.Parse(num));
+      }
+  }
 
-
-            }
-
-            return Convert.ToInt32(proccess.Peek());
+            return proccess.Pop();
     }
 }
