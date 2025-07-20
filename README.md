@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0347-top-k-frequent-elements](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [1833-find-the-highest-altitude](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1833-find-the-highest-altitude) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -22,6 +23,7 @@
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## String
 |  |
@@ -68,6 +70,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0155-min-stack) |
 ## Design
 |  |
