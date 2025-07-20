@@ -26,6 +26,7 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0020-valid-parentheses) |
 | [0242-valid-anagram](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0242-valid-anagram) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 ## Hash Table
@@ -63,4 +64,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0128-longest-consecutive-sequence) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/AbdElnasser77/leetcode-Submissions/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
